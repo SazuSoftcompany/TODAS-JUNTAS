@@ -1,44 +1,84 @@
 body {
-    font-family: 'Inter', sans-serif;
+/* diseño del cuerpo body*/
+  font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: #f9f9f9;
+    background:rgb(153, 217, 247);
     color: #333;
   }
   header, section {
+    /* propiedades del heater y de as secciones*/
     max-width: 1000px;
     margin: auto;
     padding: 2rem;
   }
   header {
+    /* propiedades solo para el header*/
     background-color: #1e3a8a;
     color: white;
     text-align: center;
   }
   h1, h2 {
+    /* propiedades para los titulos h1 y h2*/
     margin-bottom: 0.5rem;
   }
   h2 {
+    /* Color solo para los titulos en h2*/
     color: #1e3a8a;
   }
-  .project {
-    background: white;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+
+  table, h3 {
+    /* propiedades de la tabla y su titulo*/
+    text-align: center;
+    color: #1e3a8a;
   }
-  footer {
+
+  .contacto{
+    font-size: lrem;
+  }
+  
+    footer {
+      /* propiedades del pie de pagina*/
     background: #1e3a8a;
     color: white;
     text-align: center;
-    padding: 1rem;
+       padding: 1rem;
   }
+
+  .github{
+width: 20px;
+height: 20px;
+  }
+
+  .web{
+    width: 20px;
+    height: 20px;
+      }
+    
+
+  .gmail{
+    width: 20px;
+    height: 20px;
+      }
+
+  .whatsapp{
+    width: 20px;
+    height: 20px;
+      }
+
+
+  .linkedin{
+    width: 20px;
+    height: 20px;
+      }
+
   a {
+    /* propiedades de color deltexto del hipervinculo*/
     color: #1d4ed8;
     text-decoration: none;
   }
   a:hover {
+   /* propiedades del mouse*/
     text-decoration: underline;
   }
